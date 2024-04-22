@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Set background color to skyblue */
+body {
+    background-image: url("C:/Users/anith/Downloads/pexels-jplenio-1103970.jpg");
+    padding: 50px; /* Add padding to body */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 250px;
+}
+  
+  /* Set box color to dark blue */
+  .box {
+    background-color: darkblue;
+    color: white; /* Text color inside the box */
+    padding: 30px; /* Add padding for better appearance */
+    margin-bottom: 20px; /* Add margin between boxes */
+  }
+  
+  /* Set input field color to blue */
+  input[type="text"],
+  input[type="number"],
+  input[type="file"] {
+    background-color: #ffff;
+    color: rgb(0, 0, 0); /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add margin between inputs */
+    width: 50%; /* Set input fields to full width */
+    border-radius: 10px;
+  }
+  
+  /* Set button color to blue */
+  button {
+    background-color: rgb(180, 180, 184);
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px; /* Add margin to top */
+  }
+  
+  /* Change button color on hover */
+  button:hover {
+    background-color: rgb(1, 208, 244);
+  }
+
+  #num-dresses-input {
+    margin-bottom: 60px;
+  }
+  
